@@ -146,11 +146,11 @@ a.text-muted:hover {
 }
 
 .bg-custom {
-  background-color: #32cfaa !important;
+  background-color: #F28F20 !important;
 }
 
 .text-custom {
-  color: #32cfaa !important;
+  color: #F28F20 !important;
 }
 
 a.text-custom:hover {
@@ -196,9 +196,9 @@ body {
   font-size: 15px;
   color: #535353;
 }
-
+font-family: roboto-bold, roboto, sans-serif;
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-weight: 600;
 }
@@ -243,13 +243,26 @@ p {
 }
 
 .title-heading .heading {
-  font-weight: 700;
-  font-size: 75px;
-  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 0em;
+  line-height: 0.8;
 }
 
 .title-heading .para-desc {
   font-size: 17px;
+}
+
+.dedicated {
+  letter-spacing: 0.1em;
+  font-size: 31px;
+  color: rgb(185, 215, 223);
+
+}
+
+.we-build {
+  font-size: 25px;
+  text-align: center;
 }
 
 .section-title {
@@ -475,26 +488,31 @@ p {
 }
 
 .btn-custom {
-  background-color: #32cfaa !important;
-  border: 1px solid #32cfaa !important;
-  color: #ffffff !important;
+  background-color: #F28F20 !important;
+  border: 1px solid #F28F20 !important;
+  border-radius: 0em;
+  color: #000000 !important;
+  width: 157px;
+  height: 36px;
+  font-size: 20px !important;
+  line-height: 1em !important;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .btn-custom.focus {
-  background-color: #27a789 !important;
-  border-color: #27a789 !important;
+  background-color: rgba(242, 143, 32, 0.8) !important;
+  border-color: rgba(242, 143, 32, 0) !important;
   color: #ffffff !important;
 }
 
 .btn-outline-custom {
-  border: 1px solid #32cfaa;
-  color: #32cfaa;
+  border: 1px solid #F28F20;
+  color: #F28F20;
   background-color: transparent;
 }
 
 .btn-outline-custom:hover, .btn-outline-custom:focus, .btn-outline-custom:active, .btn-outline-custom.active, .btn-outline-custom.focus, .btn-outline-custom:not(:disabled):not(.disabled):active {
-  background-color: #32cfaa;
-  border-color: #32cfaa;
+  background-color: #F28F20;
+  border-color: #F28F20;
   color: #ffffff;
 }
 
@@ -506,7 +524,6 @@ p {
   letter-spacing: 0.5px;
   transition: all 0.3s;
   font-weight: 500;
-  border-radius: 6px;
 }
 
 .btn:focus {
@@ -586,7 +603,7 @@ button:not(:disabled) {
 .nav-pills .nav-link.active {
   color: #ffffff;
   background-color: #f8f9fa;
-  color: #32cfaa !important;
+  color: #F28F20 !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
@@ -662,8 +679,8 @@ button:not(:disabled) {
 }
 
 .back-to-top:hover {
-  background-color: #32cfaa;
-  border-color: #32cfaa;
+  background-color: #F28F20;
+  border-color: #F28F20;
 }
 
 .back-to-top:hover i {
@@ -707,8 +724,8 @@ button:not(:disabled) {
 }
 
 .social-icon li a:hover:before {
-  border-color: #32cfaa !important;
-  background: #32cfaa;
+  border-color: #F28F20 !important;
+  background: #F28F20;
   transform: rotate(135deg);
 }
 
@@ -755,15 +772,15 @@ button:not(:disabled) {
   line-height: 24px;
   text-transform: uppercase;
   transition: all 0.5s;
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:active {
-  color: #32cfaa !important;
+  color: #F28F20 !important;
 }
 
 .navbar-custom .navbar-nav li.active a {
-  color: #32cfaa !important;
+  color: #F28F20 !important;
 }
 
 .navbar-custom .navbar-nav .nav-item:last-child .nav-link {
@@ -792,11 +809,11 @@ button:not(:disabled) {
 }
 
 .nav-sticky.navbar-custom .navbar-nav li a:hover, .nav-sticky.navbar-custom .navbar-nav li a:active {
-  color: #32cfaa !important;
+  color: #F28F20 !important;
 }
 
 .nav-sticky.navbar-custom .navbar-nav li.active a {
-  color: #32cfaa !important;
+  color: #F28F20 !important;
 }
 
 .nav-sticky.navbar-custom.sticky-light {
@@ -809,7 +826,7 @@ button:not(:disabled) {
 
 .login-button {
   color: #ffffff;
-  background-color: #32cfaa;
+  background-color: #F28F20;
   text-transform: uppercase;
   font-size: 13px;
   transition: all 0.5s;
@@ -878,8 +895,8 @@ button:not(:disabled) {
 }
 
 .gradient {
-  background: #32cfaa !important;
-  background: linear-gradient(45deg, #32cfaa, #005ED1) !important;
+  background: #F28F20 !important;
+  background: linear-gradient(45deg, #F28F20, #005ED1) !important;
   opacity: 0.9;
 }
 
@@ -1003,23 +1020,23 @@ button:not(:disabled) {
 }
 
 .services:hover {
-  border-color: #32cfaa !important;
+  border-color: #F28F20 !important;
   transform: translateY(-7px);
 }
 
 .services:hover .icon {
-  border-color: #32cfaa !important;
+  border-color: #F28F20 !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background: #32cfaa !important;
+  background: #F28F20 !important;
   color: #ffffff;
 }
 
 .services:hover.serv-gradient .icon, .services:hover.serv-gradient:hover {
-  border-color: linear-gradient(45deg, #32cfaa, #005ED1) !important;
+  border-color: linear-gradient(45deg, #F28F20, #005ED1) !important;
 }
 
 .services:hover.serv-gradient .icon {
-  background: linear-gradient(45deg, #32cfaa, #005ED1) !important;
+  background: linear-gradient(45deg, #F28F20, #005ED1) !important;
 }
 
 .bg-cta .play-btn {
@@ -1031,7 +1048,7 @@ button:not(:disabled) {
   display: inline-block;
   border: 5px solid rgba(255, 255, 255, 0.4);
   margin-top: 30px;
-  background: #32cfaa;
+  background: #F28F20;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   transition: all 0.5s ease;
 }
@@ -1048,7 +1065,7 @@ button:not(:disabled) {
 .watch-video a .play-icon-circle {
   height: 50px;
   width: 50px;
-  background-color: #32cfaa;
+  background-color: #F28F20;
   line-height: 50px;
 }
 
@@ -1115,8 +1132,8 @@ button:not(:disabled) {
 
 .container-filter li a:hover, .container-filter li a.active {
   color: #ffffff !important;
-  background-color: #32cfaa;
-  border-color: #32cfaa !important;
+  background-color: #F28F20;
+  border-color: #F28F20 !important;
 }
 
 .container-filter li:first-child a {
@@ -1237,7 +1254,7 @@ button:not(:disabled) {
 }
 
 .blog-post .content .title:hover {
-  color: #32cfaa !important;
+  color: #F28F20 !important;
 }
 
 .blog-post:hover {
@@ -1272,7 +1289,7 @@ button:not(:disabled) {
 }
 
 .form-group .form-control:focus, .form-group .form-control.active {
-  border-color: #32cfaa;
+  border-color: #F28F20;
 }
 
 .form-group .icons {
@@ -1354,7 +1371,7 @@ button:not(:disabled) {
 }
 
 .footer .footer-list a:hover {
-  color: #32cfaa;
+  color: #F28F20;
 }
 
 .footer .tagcloud a {
@@ -1371,7 +1388,7 @@ button:not(:disabled) {
 }
 
 .footer .tagcloud a:hover {
-  background: #32cfaa;
+  background: #F28F20;
   color: #ffffff;
 }
 
